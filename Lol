@@ -83,4 +83,23 @@ Tab:AddButton({
   	end    
 }) 
     
+--Other Tab
+
+local OtherTab = Window:MakeTab({
+	Name = "Other",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Social Media"
+})
+
+OtherTab:AddButton({
+	Name = "Youtube",
+	Callback = function()
+      		setclipboard("https://youtube.com/@Wahidz_?si=R-l7ZtowlzDgUcuj") 
+  	end    
+}) 
+
 OrionLib:Init() 
