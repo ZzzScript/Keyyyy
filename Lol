@@ -91,7 +91,7 @@ local OtherTab = Window:MakeTab({
 	PremiumOnly = false
 })
 
-local Section = Tab:AddSection({
+local Section = OtherTab:AddSection({
 	Name = "Social Media"
 })
 
